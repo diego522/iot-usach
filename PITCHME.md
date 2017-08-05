@@ -45,6 +45,14 @@ Note:
 - Sensores
 - Embedded Systems
 
+Note:
+La gran cantidad de información circulante debe ser procesada de manera adecuada y sacar el máximo provecho.
+
+Evolución en la calidad y versatilidad del hardware
+Mejores técnicas para transmisión y almacenamiento de los datos
+Creación de herramientas capaces de analizar y generar conocimiento a partir de los datos almacenados.
+
+
 ---
 ##Aplicaciones Actuales
 - Media <!-- .element: class="fragment" -->
@@ -57,11 +65,35 @@ Note:
 - Domótica <!-- .element: class="fragment" -->
 - Transporte <!-- .element: class="fragment" -->
 - ... <!-- .element: class="fragment" -->
+
+Note:
+Usos del IoT:
+- Media:
+  - Transmisiones y cámaras de control remoto
+- Monitoreo del entorno
+  - Calidad del aire
+- Admin. de Infra.:
+  - Inventarios
+- Manufacturacion
+  - Automatización de ensamblajes
+- Agricultura
+  - Monitoreo de invernaderos
+- Medicina
+  - Telemedicina
+- Domótica
+  - Automatización de la iluminación
+- Transporte
+  - Monitoreo de buses
+
 ---
 ##Addressing & Auto-ID Center
 - Auto-ID Center: centro de investigación y desarrollo en el MIT quienes desarrollaron el protocolo RFID (radio frequency identification)
 - Cada objeto capaz de conectarse a la red debe poseer un identificador único, que lo distinga de otro, a pesar que posean características similares.
 - Inconvenientes con el direccionamiento de los dispositivos, el protocolo IPv4 es limitado.
+
+Note:
+Centro: auspiciado por Wal-Mart, HP, Gillette, entre otros
+Crearon el “electronic product code”
 ---
 ##Internet 0
 Hace referencia a una capa física encargada solamente de la asignación de direcciones IP a cualquier cosa, de baja velocidad y económica.
@@ -70,6 +102,14 @@ En el internet 0, los mensajes RFID se transforman en datos físicos, capaces de
 ##Computación Ubicua
 Se refiere a cómo la computación (el software) se integra con el entorno de las personas.
 - Ej: Personas consultando indicaciones a un panel de información en el Mall.
+
+Note:
+También conocido como inteligencia ambiental, es parte del IoT, incluso también puede ser parte de la inteligencia artificial.
+
+Desde el punto de vista técnico la computación ubicua contempla una gran cantidad de conceptos:
+- Computación distribuida
+- Redes móviles
+- Sensores
 ---
 ##Características del IoT
 - Inteligencia:
@@ -78,6 +118,12 @@ Se refiere a cómo la computación (el software) se integra con el entorno de la
   - Arquitectura dirigida a eventos
 Caótico y complejo
   - Una gran cantidad de actores participando del proceso de compartir sus datos y que requieren atención.
+
+Note:
+- Inteligencia:
+No determinista: no está necesariamente ligado al concepto de causa efecto, no todas las acciones necesariamente deben concluir en algo concreto
+- Arquitectura:
+	Toda la infraestructura, software y hardware debe estar pensada en el comportamiento y en la recepción de eventos del ambiente.
 ---
 ##Características del IoT
 - Tiempo:
