@@ -74,7 +74,7 @@ Caótico y complejo
   - Almacenamiento permanente de los mensajes
 ---
 ##Patrones de mensajería
----?image=assets/protocolos.png
+![PROTOCOLOS](assets/protocolos.png)
 ---
 ##Telemetry
 Implementación del patrón de dos modos:
