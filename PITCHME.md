@@ -11,9 +11,9 @@ Bill Joy imaginó la comunicación D2D (del inglés: Device to Device, dispositi
 
 ---
 ##Incidencias
-- Impacto Social
-- Cambio económico
-- Evolución
+- Impacto Social <!-- .element: class="fragment" -->
+- Cambio económico <!-- .element: class="fragment" -->
+- Evolución <!-- .element: class="fragment" -->
 
 ---
 ##Aspectos del software/hardware involucrados
@@ -25,15 +25,15 @@ Bill Joy imaginó la comunicación D2D (del inglés: Device to Device, dispositi
 
 ---
 ##Aplicaciones Actuales
-- Media
-- Monitoreo del entorno
-- Administración de infraestructuras
-- Manufacturación de productos
-- Agricultura
-- Administración de la energía
-- Medicina
-- Domótica
-- Transporte
+- Media <!-- .element: class="fragment" -->
+- Monitoreo del entorno <!-- .element: class="fragment" -->
+- Administración de infraestructuras <!-- .element: class="fragment" -->
+- Manufacturación de productos <!-- .element: class="fragment" -->
+- Agricultura <!-- .element: class="fragment" -->
+- Administración de la energía <!-- .element: class="fragment" -->
+- Medicina <!-- .element: class="fragment" -->
+- Domótica <!-- .element: class="fragment" -->
+- Transporte <!-- .element: class="fragment" -->
 - ...
 ---
 ##Addressing & Auto-ID Center
@@ -74,6 +74,7 @@ Caótico y complejo
   - Almacenamiento permanente de los mensajes
 ---
 ##Patrones de mensajería
+---?image=assets/protocolos.png
 ---
 ##Telemetry
 Implementación del patrón de dos modos:
