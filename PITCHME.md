@@ -13,11 +13,29 @@ Note:
 ##IoT, el Origen
 Bill Joy imaginó la comunicación D2D (del inglés: Device to Device, dispositivo a dispositivo), como parte de su estructura de las "Seis Webs" (en 1999 en el Foro Económico Mundial de Davos ); pero no fue hasta la llegada de Kevin Ashton que la industria tomó un segundo vistazo a la utilidad del internet de las cosas.
 
+Note:
+Bill, cofounder of Sun: Considerado uno de los mejores programadores de la historia, (escribío el nucleo de BSD en un fin de semana), con fundador de Sun Microsystem,. describió que la comunicacion máquina a máquina sería parte de una de las 6 webs. Las 6 web’s son:
+- La internet que puedes ver en una pantalla,
+- La internet que siempre llevas contigo
+- La internet que puedes apreciar en la pantalla grande
+- La internet extraña, aquella que es capaz percibir instrucciones mediante la voz y puedes oír.
+- B2B: la internet que permite a las máquinas de negocios interactuar entre ellas,
+- D2D: la internet que permite a las dispositivos comunicarse entre sí.
+
+Kevin, RFDI inventor y cofundador del Auto-ID Lab (centro de investigación en el MIT): Inventor del concepto “Internet de las cosas”, que describe un sistema donde el internet esta conectado al mundo físico mediante sensores ubicuos.
+Desarrolladores de la arquitectura del IoT auspiciados por empresas como  HP, Walmart.
+
 ---
 ##Incidencias
 - Impacto Social <!-- .element: class="fragment" -->
 - Cambio económico <!-- .element: class="fragment" -->
 - Evolución <!-- .element: class="fragment" -->
+
+Note:
+- Las personas ven como sus vidas se facilitan, y medios digitales les entregan con mayor detalle información que necesitan o no.
+- Posibilidad de nuevos negocios
+- Reducción de costos
+- Dependencia de los aparatos
 
 ---
 ##Aspectos del software/hardware involucrados
