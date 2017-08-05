@@ -5,6 +5,10 @@
 
 _"... la interconexión de cualquier producto con cualquier otro a su alrededor ..."_
 
+Note:
+- Con el pasar del tiempo, la capacidad de poder capturar información desde distintos dispositivos se ha incrementado drásticamente.
+- Múltiples fuentes de información emitiendo contenidos para su análisis.
+
 ---
 ##IoT, el Origen
 Bill Joy imaginó la comunicación D2D (del inglés: Device to Device, dispositivo a dispositivo), como parte de su estructura de las "Seis Webs" (en 1999 en el Foro Económico Mundial de Davos ); pero no fue hasta la llegada de Kevin Ashton que la industria tomó un segundo vistazo a la utilidad del internet de las cosas.
@@ -34,7 +38,7 @@ Bill Joy imaginó la comunicación D2D (del inglés: Device to Device, dispositi
 - Medicina <!-- .element: class="fragment" -->
 - Domótica <!-- .element: class="fragment" -->
 - Transporte <!-- .element: class="fragment" -->
-- ...
+- ... <!-- .element: class="fragment" -->
 ---
 ##Addressing & Auto-ID Center
 - Auto-ID Center: centro de investigación y desarrollo en el MIT quienes desarrollaron el protocolo RFID (radio frequency identification)
@@ -56,13 +60,15 @@ Se refiere a cómo la computación (el software) se integra con el entorno de la
   - Arquitectura dirigida a eventos
 Caótico y complejo
   - Una gran cantidad de actores participando del proceso de compartir sus datos y que requieren atención.
+---
+##Características del IoT
 - Tiempo:
   - El tiempo ya no puede ser considerado ni tratado como una unidad lineal, muchos eventos paralelos y simultáneos.
 - Seguridad:
   - Toda la información circulante debe estar protegida.
 ---
 #Internet of Things
-#Protocolos de Mensajería
+##Protocolos de Mensajería
 ---
 ##Better QoS
 - Better Quality of Service:
@@ -132,4 +138,6 @@ Características relevantes que debe cumplir un stack de IoT
 - Apis de comunicación bien definidas
 
 ---
-#IoT - Microservicios
+#IoT
+##Microservicios
+---
