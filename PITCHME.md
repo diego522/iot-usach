@@ -203,5 +203,27 @@ Características relevantes que debe cumplir un stack de IoT
 
 ---
 #IoT
-##Microservicios
+##Micro servicios
 ---
+##Arquitectura de microservicios
+- Construcción de una aplicación en pequeños pedazos
+- Normalmente se refiere a una comunicación via protocolo HTTP
+- Cada parte resuelve un requerimiento del negocio
+
+---
+##Servicios Web
+
+
+
+
+---
+##Servicios REST y SOAP
+
+
+
+---
+##Carácterísticas de los microservicios
+
+---
+##Referencia
+https://martinfowler.com/articles/microservices.html
