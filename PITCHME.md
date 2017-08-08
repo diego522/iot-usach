@@ -209,20 +209,22 @@ Características relevantes que debe cumplir un stack de IoT
 - Construcción de una aplicación en pequeños pedazos
 - Normalmente se refiere a una comunicación via protocolo HTTP
 - Cada parte resuelve un requerimiento del negocio
-
 ---
-##Servicios Web
-
-
-
-
+##Características de una SOA
+- Los componentes son servicios
+- Organizada en torno a las funcionalidades del negocio
+- Productos no proyectos
+- Tener gobierno descentralizado
+- Gestión de datos descentralizada
+- Diseño pensado en las fallas
+- Automatización de la infraestructura
+- Diseño evolutivo
 ---
-##Servicios REST y SOAP
-
-
-
----
-##Carácterísticas de los microservicios
+##Servicios
+- ¿Qué tipo de Servicios Web Existen?
+  - Describir brevemente cada uno
+  - ¿Qué protocolos para WS exiten?
+  - Verbos HTTP, que función cumplen y el objetivo de cada uno?
 
 ---
 ##Referencia
