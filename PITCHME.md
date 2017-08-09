@@ -179,7 +179,7 @@ Conecciones y “Smartthings”
 - Administración de datos y mensajería
 - Administración remota
 ---
-##Consideraciones claves
+## Consideraciones claves
 IoT en la nube
 - Conectividad y enrutamiento de los mensajes
 - Administración y registro de los dispositivos
@@ -187,13 +187,13 @@ IoT en la nube
 - Administración de eventos, Analítica y UI
 - Disponibilización de las aplicaciones
 ---
-##Consideraciones claves
+## Consideraciones claves
 Transversales
 - Seguridad
 - Descripción de los mensajes, datos y “Data interoperability ”
 - Herramientas de desarrollo
 ---
-##Consideraciones claves
+## Consideraciones claves
 Características relevantes que debe cumplir un stack de IoT
 - Bajo acoplamiento
 - Modular
@@ -202,15 +202,15 @@ Características relevantes que debe cumplir un stack de IoT
 - Apis de comunicación bien definidas
 
 ---
-#IoT
-##Micro servicios
+# IoT
+## Micro servicios
 ---
-##Arquitectura de microservicios
+## Arquitectura de microservicios
 - Construcción de una aplicación en pequeños pedazos
 - Normalmente se refiere a una comunicación via protocolo HTTP
 - Cada parte resuelve un requerimiento del negocio
 ---
-##Características de una SOA
+## Características de una SOA
 - Los componentes son servicios
 - Organizada en torno a las funcionalidades del negocio
 - Productos no proyectos
@@ -220,12 +220,19 @@ Características relevantes que debe cumplir un stack de IoT
 - Automatización de la infraestructura
 - Diseño evolutivo
 ---
-##Servicios
+
+## Actividad de clase
+Dado el siguiente problema:
+  - Matrículas de alumnos de la universidad
+Diseñar un diagrama de componentes, con los elementos que la arquitectura de microservicios que deberían existir.
+_(incluir bases de datos que deberían existir)_
+---
+## Servicios
 - ¿Qué tipo de Servicios Web Existen?
   - Describir brevemente cada uno
   - ¿Qué protocolos para WS exiten?
   - Verbos HTTP, que función cumplen y el objetivo de cada uno?
 
 ---
-##Referencia
+## Referencia
 https://martinfowler.com/articles/microservices.html
