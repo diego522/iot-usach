@@ -223,8 +223,11 @@ Características relevantes que debe cumplir un stack de IoT
 
 ## Actividad de clase
 Dado el siguiente problema:
-  - Matrículas de alumnos de la universidad
-Diseñar un diagrama de componentes, con los elementos que la arquitectura de microservicios que deberían existir.
+  - Matrículas de alumnos de la universidad.
+
+  - Diseñar un diagrama de componentes, con los elementos que la arquitectura de microservicios que deberían existir.
+    - Responsabilidades de cada uno
+    - Entradas y salidas
 _(incluir bases de datos que deberían existir)_
 ---
 ## Servicios
