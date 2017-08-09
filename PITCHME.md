@@ -232,7 +232,6 @@ _(incluir bases de datos que deberían existir)_
 ---
 ## Servicios
 - ¿Qué tipo de Servicios Web Existen?
-  - Describir brevemente cada uno
   - ¿Qué protocolos para WS exiten?
   - Verbos HTTP, que función cumplen y el objetivo de cada uno?
 
