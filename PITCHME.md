@@ -269,8 +269,42 @@ Cualquier elemento que pueda proveer información.
 ---
 ## Rest no es sinónimo de JSON
 ---
+
 ## Formatos de entrada/salida
 - JSON  <!-- .element: class="fragment" -->
 - XML  <!-- .element: class="fragment" -->
 - Plain Text  <!-- .element: class="fragment" -->
 - ...  <!-- .element: class="fragment" -->
+---
+
+## Endpoints
+Puntos de acceso a los recursos/acciones
+- Request:<!-- .element: class="fragment" -->
+  - Path Variables <!-- .element: class="fragment" -->
+  - Request Params <!-- .element: class="fragment" -->
+  - Headers <!-- .element: class="fragment" -->
+  - Request Body <!-- .element: class="fragment" -->
+- Responses: <!-- .element: class="fragment" -->
+  - HTTP Status <!-- .element: class="fragment" -->
+  - Headers <!-- .element: class="fragment" -->
+  - Response Body <!-- .element: class="fragment" -->
+
+---
+## Request
+- URL: _http://myServer:Port/myApp/users?sort=age_
+- HEADER
+  - Content-type: application/json
+---
+## Response
+```
+[
+  {
+    "name":"Alex",
+    "phone":"123"
+  },
+  {
+    "name":...
+  },
+  ...
+]
+```
