@@ -238,3 +238,39 @@ _(incluir bases de datos que deberían existir)_
 ---
 ## Referencia
 https://martinfowler.com/articles/microservices.html
+
+---
+## Lectura
+http://www.oreilly.com/iot/free/what-is-the-internet-of-things.csp
+---
+## REST
+- Estilo de arquitectura que se basa en la presentación de estados.
+- Usando principalmente para el HTTP.
+- Más sencillo de definir que otros (Por Ejemplo SOAP).
+- Operaciones bien definidas (mediante los verbos HTTP).
+- Sintáxis universalmente conocida.
+---
+## Recursos en REST
+Cualquier elemento que pueda proveer información.
+ - Ejemplo:  <!-- .element: class="fragment" -->
+   - Recurso:  <!-- .element: class="fragment" -->
+     - Personas  <!-- .element: class="fragment" -->
+     - Cuenta bancaria  <!-- .element: class="fragment" -->
+   - No recurso:  <!-- .element: class="fragment" -->
+     - Enviar un mail  <!-- .element: class="fragment" -->
+     - Actualizar un estado  <!-- .element: class="fragment" -->
+     - Notificar  <!-- .element: class="fragment" -->
+
+---
+## RPC v/s REST
+- RPC: Llamadas a procedimiento remoto
+- REST: basado en la obtención de información en base a los recursos
+
+---
+## Rest no es sinónimo de JSON
+---
+## Formatos de entrada/salida
+- JSON  <!-- .element: class="fragment" -->
+- XML  <!-- .element: class="fragment" -->
+- Plain Text  <!-- .element: class="fragment" -->
+- ...  <!-- .element: class="fragment" -->
