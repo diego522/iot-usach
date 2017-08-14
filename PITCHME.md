@@ -242,6 +242,7 @@ https://martinfowler.com/articles/microservices.html
 ---
 ## Lectura
 http://www.oreilly.com/iot/free/what-is-the-internet-of-things.csp
+
 ---
 ## REST
 - Estilo de arquitectura que se basa en la presentación de estados.
@@ -249,6 +250,7 @@ http://www.oreilly.com/iot/free/what-is-the-internet-of-things.csp
 - Más sencillo de definir que otros (Por Ejemplo SOAP).
 - Operaciones bien definidas (mediante los verbos HTTP).
 - Sintáxis universalmente conocida.
+
 ---
 ## Recursos en REST
 Cualquier elemento que pueda proveer información.
@@ -288,13 +290,14 @@ Puntos de acceso a los recursos/acciones
   - HTTP Status <!-- .element: class="fragment" -->
   - Headers <!-- .element: class="fragment" -->
   - Response Body <!-- .element: class="fragment" -->
-
 ---
+
 ## Request
 - URL: _http://myServer:Port/myApp/users?sort=age_
 - HEADER
   - Content-type: application/json
 ---
+
 ## Response
 ```
 [
@@ -308,3 +311,42 @@ Puntos de acceso a los recursos/acciones
   ...
 ]
 ```
+---
+## Ejemplo
+Microservicio mantenedor de personas, operaciones CRUD
+<table>
+  <thead>
+    <td>Method</td>
+    <td>URL</td>
+    <td>Descripción</td>
+  </thead>
+  <tbody>
+  <tr>
+    <td>GET</td>
+    <td>http://localhost/personas</td>
+    <td>Obtiene a todas las personas</td>
+  </<tr>
+  <tr>
+    <td>GET</td>
+    <td>http://localhost/personas/1</td>
+    <td>Obtiene a la persona con id 1</td>
+  </<tr>
+  <tr>
+    <td>POST</td>
+    <td>http://localhost/personas</td>
+    <td>Crea a una nueva persona</td>
+  </<tr>
+  <tr>
+    <td>PUT/PATCH</td>
+    <td>http://localhost/personas/1</td>
+    <td>Actualiza a la persona con id 1</td>
+  </<tr>
+  <tr>
+    <td>DELETE</td>
+    <td>http://localhost/personas/1</td>
+    <td>Elimina a la persona con id 1</td>
+  </<tr>
+  </tbody>
+</table>
+
+---
