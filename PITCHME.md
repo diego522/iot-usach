@@ -314,39 +314,17 @@ Puntos de acceso a los recursos/acciones
 ---
 ## Ejemplo
 Microservicio mantenedor de personas, operaciones CRUD
-<table>
-  <thead>
-    <td>Method</td>
-    <td>URL</td>
-    <td>Descripción</td>
-  </thead>
-  <tbody>
-  <tr>
-    <td>GET</td>
-    <td>http://localhost/personas</td>
-    <td>Obtiene a todas las personas</td>
-  </<tr>
-  <tr>
-    <td>GET</td>
-    <td>http://localhost/personas/1</td>
-    <td>Obtiene a la persona con id 1</td>
-  </<tr>
-  <tr>
-    <td>POST</td>
-    <td>http://localhost/personas</td>
-    <td>Crea a una nueva persona</td>
-  </<tr>
-  <tr>
-    <td>PUT/PATCH</td>
-    <td>http://localhost/personas/1</td>
-    <td>Actualiza a la persona con id 1</td>
-  </<tr>
-  <tr>
-    <td>DELETE</td>
-    <td>http://localhost/personas/1</td>
-    <td>Elimina a la persona con id 1</td>
-  </<tr>
-  </tbody>
-</table>
+| **Method** |           **URL**           |         **Descripción**         |
+| ---------- | --------------------------- | ------------------------------- |
+| GET        | http://localhost/personas   | Obtiene a todas las personas    |
+| GET        | http://localhost/personas/1 | Obtiene a la persona con id 1   |
+| POST       | http://localhost/personas   | Crea a una nueva persona        |
+
+
 
 ---
+
+| **Method** |           **URL**           |         **Descripción**         |
+| ---------- | --------------------------- | ------------------------------- |
+| PUT/PATCH  | http://localhost/personas/1 | Actualiza a la persona con id 1 |
+| DELETE |     http://localhost/personas/1 |     Elimina a la persona con id 1 |
