@@ -314,6 +314,7 @@ Puntos de acceso a los recursos/acciones
 ---
 ## Ejemplo
 Microservicio mantenedor de personas, operaciones CRUD
+
 | **Method** |           **URL**           |         **Descripción**         |
 | ---------- | --------------------------- | ------------------------------- |
 | GET        | http://localhost/personas   | Obtiene a todas las personas    |
@@ -328,3 +329,5 @@ Microservicio mantenedor de personas, operaciones CRUD
 | ---------- | --------------------------- | ------------------------------- |
 | PUT/PATCH  | http://localhost/personas/1 | Actualiza a la persona con id 1 |
 | DELETE |     http://localhost/personas/1 |     Elimina a la persona con id 1 |
+
+---
