@@ -334,3 +334,28 @@ Microservicio mantenedor de personas, operaciones CRUD
 | ---------- | ------------------------- | ------------------------ |
 | POST       | http://localhost/personas | Crea a una nueva persona |
 |            |                           |                          |
+
+---
+
+# Stack tecnológico
+---
+
+## Instalar para la próxima clase
+- JDK 8 (ojalá version Oracle)
+  - Incluir variable de Entorno JAVA_HOME y PATH
+- Apache Maven 3.x
+  - Incluir variables PATH, M2, M2_HOME
+- Entorno de desarrollo favorito para Java :)
+- Cliente Rest
+  - Postman
+  - curl
+  - etc.
+
+---
+
+## Kit Arduino
+https://www.seeedstudio.com/Grove-Starter-Kit-for-Arduino-p-1855.html
+---
+
+# Introucción a Spring Framework
+---
