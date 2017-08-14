@@ -319,8 +319,6 @@ Microservicio mantenedor de personas, operaciones CRUD
 | ---------- | --------------------------- | ------------------------------- |
 | GET        | http://localhost/personas   | Obtiene a todas las personas    |
 | GET        | http://localhost/personas/1 | Obtiene a la persona con id 1   |
-| POST       | http://localhost/personas   | Crea a una nueva persona        |
-
 
 
 ---
@@ -328,6 +326,11 @@ Microservicio mantenedor de personas, operaciones CRUD
 | **Method** |           **URL**           |         **Descripción**         |
 | ---------- | --------------------------- | ------------------------------- |
 | PUT/PATCH  | http://localhost/personas/1 | Actualiza a la persona con id 1 |
-| DELETE |     http://localhost/personas/1 |     Elimina a la persona con id 1 |
+| DELETE     | http://localhost/personas/1 | Elimina a la persona con id 1   |
 
 ---
+
+| **Method** |          **URL**          |     **Descripción**      |
+| ---------- | ------------------------- | ------------------------ |
+| POST       | http://localhost/personas | Crea a una nueva persona |
+|            |                           |                          |
