@@ -414,6 +414,7 @@ Intervención de las llamadas a los procedimientos
 ---
 
 ## El contexto de Spring
+
 Los beans viven dentro del conexto de spring, el cual los gestiona dependiendo de su scope. Aquí interviene el IoC y la Inyección de Dependencias. Ésto es el corazon del framework.
 ---
 
@@ -432,4 +433,50 @@ Los beans viven dentro del conexto de spring, el cual los gestiona dependiendo d
 | I       | Principio de segregación de la interfaz  |
 | D       | Principio de inversión de la dependencia |
 
+---
+
+## Tipos de proyectos posibles con Spring y sus variantes
+- Servicios/Aplicaciones Web
+- Aplicaciones de Escritorio
+- Mobile
+- BigData
+- Machine Learning
+- ...
+
+---
+## Apache Maven
+Software Administrador de Proyectos, basado en el concepto de 'project object model (POM)'. Maven es tiene al capacidad de construir, reportar y documentar desde piezas específicas de software.
+
+---
+## Descripción del archivo POM
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project ...>
+	...
+	<groupId>com.example</groupId>
+	<artifactId>demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+  ...
+  <dependencies>
+    ...
+    <dependency>
+      ...
+    </dependency>
+  </dependencies>
+</project>
+```
+
+---
+
+## TAGS
+```
+    <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+      <version>1.2.5</version>
+      <scope>test</scope>
+		</dependency>
+```
 ---
