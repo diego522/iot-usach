@@ -418,9 +418,9 @@ Los beans viven dentro del conexto de spring, el cual los gestiona dependiendo d
 ---
 
 ## Patrones de Diseño más importantes reconocidos dentro de Spring
-- Singleton
-- Prototype
-- Proxy
+- Singleton <!-- .element: class="fragment" -->
+- Prototype <!-- .element: class="fragment" -->
+- Proxy <!-- .element: class="fragment" -->
 ---
 
 ## Principio S.O.L.I.D
