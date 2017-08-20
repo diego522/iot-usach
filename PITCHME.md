@@ -480,3 +480,22 @@ Software Administrador de Proyectos, basado en el concepto de 'project object mo
 		</dependency>
 ```
 ---
+
+## Organización de los equipos
+- 4 Grupos de 3 personas cada uno
+- Proyecto abordable con los sensores disponibles
+---
+
+
+## Informe
+- Entrega informe parte 1
+  - En la clase del Miércoles 30 de agosto (Impreso)
+  - Contenidos
+    - Descripción de la idea a desarrollar
+      - Problema que se estaría resolviendo
+        - Descripción detallada el problema
+        - Estado del arte
+        - Solución propuesta, descripción detallada
+      - Diagrama de Interacción (componentes)
+      - Si necesitan de fuentes externals deben incluirlas y describirlas
+      - Descripción de Sensores a utilizar
