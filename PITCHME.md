@@ -280,6 +280,12 @@ Cualquier elemento que pueda proveer información.
 ---
 
 ## Endpoints
+
+- uno
+- dos
+  - uno dos
+    - tres
+
 Puntos de acceso a los recursos/acciones
 - Request:<!-- .element: class="fragment" -->
   - Path Variables <!-- .element: class="fragment" -->
@@ -358,4 +364,72 @@ https://www.seeedstudio.com/Grove-Starter-Kit-for-Arduino-p-1855.html
 ---
 
 # Introucción a Spring Framework
+---
+
+## Spring Framework
+
+Framework, open source, para desarrollar aplicaciones basado en la inversion de control y la inyección de dependencias. Nace en el año 2002 como un sustituto a EJB.
+---
+
+## Principales características
+- Adopción de características de J2EE. <!-- .element: class="fragment" -->
+- Programación orientada a aspectos. <!-- .element: class="fragment" -->
+- Modelo de 'N' capas. <!-- .element: class="fragment" -->
+- Inyección de dependencias. <!-- .element: class="fragment" -->
+
+---
+
+## Módulos existentes dentro del proyecto Spring (1)
+
+- Spring Framework <!-- .element: class="fragment" -->
+- Spring Boot <!-- .element: class="fragment" -->
+- Spring Cloud <!-- .element: class="fragment" -->
+- Spring Data <!-- .element: class="fragment" -->
+- Spring Integration <!-- .element: class="fragment" -->
+- Spring Batch <!-- .element: class="fragment" -->
+- Spring Security <!-- .element: class="fragment" -->
+
+---
+## Módulos existentes dentro del proyecto Spring (2)
+
+- Spring Cloud Data Flow <!-- .element: class="fragment" -->
+- Spring HATEOAS <!-- .element: class="fragment" -->
+- Spring Social <!-- .element: class="fragment" -->
+- Spring for Android <!-- .element: class="fragment" -->
+- Spring WebServices <!-- .element: class="fragment" -->
+- Spring StateMachine <!-- .element: class="fragment" -->
+- Spring Shell <!-- .element: class="fragment" -->
+- ... <!-- .element: class="fragment" -->
+
+---
+## Configuración en base a anotaciones y properties
+La configuración de la aplicación puede ser ingresada mediante archivos especiales de configuration llamados, "Properties", pueden estar en formato property o yaml.
+La ejecución de las configuraciones puede ser setada mediante archivos XML, o en sus más recientes versiones, mediante anotaciones que facilitan la codificación y crean un código más limpio.
+
+---
+
+## Orientación a aspectos
+Intervención de las llamadas a los procedimientos
+
+---
+
+## El contexto de Spring
+Los beans viven dentro del conexto de spring, el cual los gestiona dependiendo de su scope. Aquí interviene el IoC y la Inyección de Dependencias. Ésto es el corazon del framework.
+---
+
+## Patrones de Diseño más importantes reconocidos dentro de Spring
+- Singleton
+- Prototype
+- Proxy
+---
+
+## Principio S.O.L.I.D
+| Inicial |                 Concepto                 |
+| ------- | ---------------------------------------- |
+| S       | Principio de responsabilidad única       |
+| O       | Principio de abierto/cerrado             |
+| L       | Principio de sustitución de Liskov       |
+| I       | Principio de segregación de la interfaz  |
+| D       | Principio de inversión de la dependencia |
+
 ---
