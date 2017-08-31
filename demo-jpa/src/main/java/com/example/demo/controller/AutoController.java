@@ -1,10 +1,12 @@
-package com.example.demo;
+package com.example.demo.controller;
 
+import com.example.demo.domain.Auto;
+import com.example.demo.service.AutoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.PostConstruct;
 import java.util.List;
 
 /**
@@ -13,33 +15,25 @@ import java.util.List;
 @RestController
 public class AutoController {
 
+    @Qualifier(value = "autoServiceBD")
     @Autowired
-    private AutoRepository autoRepository;
+    private AutoService autoService;
 
-    @PostConstruct
-    public void init() {
-        Auto auto = new Auto();
 
-        auto.setAnioFab(1234);
-        auto.setMarca("Lada");
-        auto.setModelo("ASC");
-
-        autoRepository.save(auto);
-
-    }
-
+    /**
+     * Obtiene todos los vehículos desde la BD
+     *
+     * @param marca Indica la marca en el caso de necesitarla
+     * @return
+     */
     @GetMapping
     public List<Auto> getAll(@RequestParam(value = "marca", required = false, defaultValue = "") String marca) {
-        if (!marca.isEmpty()) {
-            return autoRepository.findByMarca(marca);
-        } else {
-            return autoRepository.findAll();
-        }
+        return autoService.findByMarca(marca);
     }
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping
     public Auto add(@RequestBody Auto auto) {
-        return autoRepository.save(auto);
+        return autoService.save(auto);
     }
 }
